@@ -1,0 +1,3 @@
+module funn
+
+go 1.26.1
