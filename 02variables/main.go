@@ -5,7 +5,7 @@ import "fmt"
 // jefftruename := "jeffbezozzz" [ PLS DONT UNCOMMENT IT *-*]
 var jefftruename string = "jeffbezozozo"
 
-const jeffage int = -1 // YES HE IS IMMORTALLL
+const jeffage int = -1 // YES HE IS IMMORTALLL 
 
 func main() {
 	fmt.Println("[Variables]")

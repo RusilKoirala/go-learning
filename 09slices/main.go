@@ -42,4 +42,9 @@ func main() {
 
 	sort.Ints(scores)
 	fmt.Println(scores)
+
+	// removing value from the slices :)
+	index := 3
+	scores = append(scores[:index], scores[index+1:]...)
+	fmt.Println(scores)
 }
