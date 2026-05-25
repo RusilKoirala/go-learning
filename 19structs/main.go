@@ -19,5 +19,6 @@ func main() {
 		isOutofStock: true,
 		createdAt:    time.Now().UTC(),
 	}
+
 	fmt.Println(wow)
 }
