@@ -15,15 +15,15 @@ func main() {
 	x := 0
 	for {
 		fmt.Println(x)
-		if (x > 5 ) {
-			break;
+		if x > 5 {
+			break
 		}
-		x++;
+		x++
 	}
 
-	add (5,3)
+	add(5, 3)
 }
 
-func add (int a , int b) {
-	Println("The sum is", a+b)
+func add(a int, b int) {
+	fmt.Println("The sum is", a+b)
 }
